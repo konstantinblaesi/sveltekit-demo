@@ -3,7 +3,7 @@ import {describe, expect, it} from 'vitest';
 import FakeApp from "$lib/testing/FakeApp.svelte";
 import Child from "$lib/context/Child.svelte";
 import type {Data} from "$lib/context/context";
-import {key} from "../../lib/context/context";
+import {key} from "$lib/context/context";
 
 describe('Test Child.svelte', () => {
 
