@@ -1,7 +1,7 @@
 <script lang="ts">
     import {getContext} from "svelte";
-    import type {Data} from "./context";
-    import {key} from "./context";
+    import type {Data} from "$lib/context/context";
+    import {key} from "$lib/context/context";
 
     const data = getContext<Data>(key)
 </script>

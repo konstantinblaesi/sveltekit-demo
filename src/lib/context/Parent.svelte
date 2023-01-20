@@ -1,7 +1,7 @@
 <script lang="ts">
     import {setContext} from "svelte";
-    import {key} from "./context";
-    import type {Data} from "./context"
+    
+    import {key, type Data} from "$lib/context/context"
 
     setContext<Data>(key, {city: "Amsterdam"})
 </script>
